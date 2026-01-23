@@ -87,7 +87,7 @@ This file is a reusable reference for writing markdown files.
 [link name](link)
 ```
 ##### Example :
-[My Github Link](https://github.com/naveen-53)
+[Learning pathway](https://github.com/naveen-53/Learning-Pathways)
 
 ---
 
@@ -97,7 +97,7 @@ This file is a reusable reference for writing markdown files.
 ![Alt Text](image-url.png)
 ```
 ##### Example :
-![sample image](url)
+![sample image](Images/naveen%20logo%201.jpg)
 
 ---
 
