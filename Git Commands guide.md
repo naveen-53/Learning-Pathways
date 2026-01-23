@@ -16,10 +16,6 @@ This guide is a practical **team-focused** Git reference: from setup → daily w
 - [9. History & Logs](#9-history--logs)
 - [10. Tags & Releases](#10-tags--releases)
 - [11. Cleaning & Maintenance](#11-cleaning--maintenance)
-- [12. Advanced / Power Commands](#12-advanced--power-commands)
-- [13. Recommended Team Rules](#13-recommended-team-rules)
-- [Quick Cheat Sheet](#quick-cheat-sheet)
-
 ---
 
 ## 1. Initial Setup
@@ -99,8 +95,8 @@ git diff
 
 ### Stage files
 ```
-git add file1
-git add .
+git add file-name
+git add .          # all files
 ```
 
 ### Commit changes
@@ -142,13 +138,13 @@ git branch -m old-name new-name
 
 ### Delete local branch
 ```
-git branch -d feature/navbar
-git branch -D feature/navbar   # force delete
+git branch -d branch-name
+git branch -D branch-name   # force delete
 ```
 
 ### Delete remote branch
 ```
-git push origin --delete feature/navbar
+git push origin --delete branch-name
 ```
 --- 
 
@@ -167,7 +163,7 @@ git push origin --delete feature/navbar
 ```
 git switch main
 git pull --rebase
-git switch -c feature/add-navbar
+git switch -c branch-name
 
 # work...
 git add .
@@ -181,19 +177,19 @@ git push -u origin branch-name
 ## 6. Undo & Fix Mistakes
 ### Undo changes in working directory (not staged yet)
 ```
-git restore file1
+git restore file-name
 git restore .
 ```
 
 ### Unstage a file (keeps changes)
 ```
-git restore --staged file1
+git restore --staged file-name
 ```
 
 ### Amend last commit (edit message or add missing files)
 ```
 git add .
-git commit --amend
+git commit --amend -m "commit message"
 ```
 
 ### Revert a commit (safe for shared branch)
@@ -219,6 +215,7 @@ git revert <commit_hash>
 
 
 ### Undo a hard reset using reflog
+- reflog is history of where your HEAD and branches have been.
 ```
 git reflog
 git reset --hard <hash_from_reflog>
@@ -227,6 +224,7 @@ git reset --hard <hash_from_reflog>
 ---
 
 ## 7. Merge Conflicts
+- **git rebase** move(replay) your commits on top of another branch. 
 ### When pulling causes conflicts
 ```
 git pull --rebase
@@ -259,6 +257,7 @@ git status
 ---
 
 ## 8. Stash (Save Work Temporarily)
+- **Git stash** is like a temporary drawer where you can quickly save your unfinished wirk without committing it
 ### Save uncommitted work
 ```
 git stash
@@ -266,7 +265,7 @@ git stash
 
 ### Save with message
 ```
-git stash push -m "WIP: homepage"
+git stash push -m "stash nessage"
 ```
 
 ### View stashes
@@ -382,4 +381,7 @@ git remote -v
 ```
 git remote set-url origin https://github.com/org/repo.git
 ```
-
+### add upstream
+```
+git remote add upstream url-link
+```
