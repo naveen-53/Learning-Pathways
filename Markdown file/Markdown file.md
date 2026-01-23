@@ -97,7 +97,7 @@ This file is a reusable reference for writing markdown files.
 ![Alt Text](image-url.png)
 ```
 ##### Example :
-![sample image](Images/naveen%20logo%201.jpg)
+![sample image](https://github.com/naveen-53/Learning-Pathways/blob/main/Images/naveen%20logo%201.jpg)
 
 ---
 
