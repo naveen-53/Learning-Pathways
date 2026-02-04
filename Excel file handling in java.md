@@ -12,19 +12,19 @@
 
 ---
 ## Table of Contents
-1. [Maven Dependency](#maven-dependency)
-2. [Apache POI Architecture](#apache-poi-architecture)
-3. [Core concepts](#core-concepts)
-4. [Core Classes](#core-classes)
-5. [CRUD operations with apache POI](#crud-operations-with-apache-poi)
-6. [Important Utility Classes](#important-utility-classes)
-7. [Core Styling Classes](#core-styling-classes)
-8. [Common Styling Features](#common-styling-features)
-9. [Full Styled Excel Example](#full-styled-excel-example)
-10. [Advanced Features](#advanced-features)
-11. [Best Practices](#best-practices)
-12. [When To Use Apache POI](#when-to-use-apache-poi)
-13. [Common Mistakes](#common-mistakes)
+1. [Maven Dependency](#-maven-dependency)
+2. [Apache POI Architecture](#-apache-poi-architecture)
+3. [Core concepts](#-core-concepts)
+4. [Core Classes](#-core-classes)
+5. [CRUD operations with apache POI](#-crud-operations-with-apache-poi)
+6. [Important Utility Classes](#-important-utility-classes)
+7. [Core Styling Classes](#-core-styling-classes)
+8. [Common Styling Features](#-common-styling-features)
+9. [Full Styled Excel Example](#-full-styled-excel-example)
+10. [Advanced Features](#-advanced-features)
+11. [Best Practices](#-best-practices)
+12. [When To Use Apache POI](#-when-to-use-apache-poi)
+13. [Common Mistakes](#-common-mistakes)
 
 ---
 
