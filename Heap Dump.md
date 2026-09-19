@@ -1,4 +1,4 @@
-# Java/Spring Boot OutOfMemoryError — Heap Dump Troubleshooting Guide
+# Java/Spring Boot OutOfMemoryError — Heap Dump Troubleshooting
 
 ## 1. Purpose
 
