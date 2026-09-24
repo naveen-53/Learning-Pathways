@@ -284,6 +284,10 @@ OUTWARD = OUT
 
 An **Import Letter of Credit (LC)** is a bank-issued undertaking made at the request of an importer to pay a beneficiary, usually an overseas exporter, provided the beneficiary presents documents that comply with the LC terms.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/naveen-53/Learning-Pathways/main/Images/Letter_of_credit_1.jpg" width="500">
+</p>
+
 Simple meaning:
 
 > The importer asks the bank to promise the exporter: "If you submit the required complying documents, the bank will make payment according to the LC terms."
@@ -744,6 +748,11 @@ The collecting bank releases documents according to the collection instructions.
 
 A **Shipping Guarantee** is a bank-issued undertaking that may allow an importer to obtain delivery of goods from a carrier when the original transport document is not yet available, subject to the bank's terms and applicable law/practice.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/naveen-53/Learning-Pathways/main/Images/Letter_of_credit_1.jpg" width="500">
+</p>
+
+
 It is often relevant when:
 
 - Goods have arrived
@@ -822,6 +831,11 @@ Shipping Guarantee may solve delivery problem
 ## Definition
 
 A **Bank Guarantee** is an undertaking issued by a bank to a beneficiary, on behalf of its customer/applicant, under which the bank agrees to pay the beneficiary if the specified conditions for invocation of the guarantee are met.
+
+<p align="center">
+  <img src="https://github.com/naveen-53/Learning-Pathways/blob/main/Images/Bank_gurantee.jpg" width="500">
+</p>
+
 
 Simple meaning:
 
