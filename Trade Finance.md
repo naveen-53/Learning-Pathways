@@ -2112,27 +2112,4 @@ Additional support:
        |
        +-- Export Regularization
 ```
-
-## Best Order to Learn These Topics
-
-For a beginner, learn them in this sequence:
-
-1. **Import vs Export**
-2. **Inward vs Outward Remittance**
-3. **Letter of Credit fundamentals**
-4. **Import LC**
-5. **Export LC**
-6. **Import Collection**
-7. **Export Collection**
-8. **D/P vs D/A**
-9. **Sight vs Usance**
-10. **Trade documents**
-11. **Document discrepancies**
-12. **Shipping Guarantee**
-13. **Bank Guarantee**
-14. **Finance Request**
-15. **Import Regularization**
-16. **Export Regularization**
-17. **End-to-end trade transaction lifecycle**
-
-Once these are clear, you can start mapping the concepts to a Trade/FCC banking application: screens, APIs, workflow, validation, database tables, status transitions, approvals, document processing, settlement, and regularization.
+---
