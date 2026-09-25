@@ -433,6 +433,26 @@ Often associated with intermediary trade structures.
 
 ---
 
+## Common MT Codes used in LC
+
+| MT Code | Meaning | Simple purpose |
+|----|----|----|
+| MT700 | Issue of a Documentary Credit | Bank issues an LC |
+| MT701 | Issue of a Documentary Credit – continuation | Continuation of MT700 when message is too long |
+| MT705 | Pre-Advice of a Documentary Credit | Preliminary/pre-advice of an LC | 
+| MT707 | Amendment to a Documentary Credit| Changes to an existing LC | 
+| MT710 | Advice of a Third Bank's Documentary Credit | Advising an LC received through another bank | 
+| MT711 | Advice of a Third Bank's Documentary Credit – continuation | Continuation of MT710 | 
+| MT720 | Transfer of a Documentary Credit | Transferable LC | 
+| MT730 | Acknowledgement | Acknowledges receipt of certain LC-related messages | 
+| MT740 | Authorization to Reimburse | Authorization related to reimbursement | 
+| MT742 | Reimbursement Claim | Claim for reimbursement | 
+| MT747 | Amendment to Authorization to Reimburse | Changes reimbursement authorization | 
+| MT750 | Advice of Discrepancy | Advises discrepancies in documents | 
+| MT752 | Authorization to Pay, Accept or Negotiate | Authorization relating to payment/acceptance/negotiation | 
+| MT754 | Advice of Payment/Acceptance/Negotiation | Advises payment, acceptance or negotiation | 
+| MT756 | Advice of Reimbursement or Payment | Advises reimbursement/payment | 
+
 ## Import LC Scenario
 
 ### Scenario
